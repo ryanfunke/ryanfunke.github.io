@@ -3,16 +3,13 @@
 <head>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
 </head>
 <body>
     <script>
         var dt = new Date();
         var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
-        $.getJSON("https://api.ipify.org/?format=json", function(e) {
-            clientIP = e.ip;
-        });
+        var clientIP = "[UNKNOWN]"
         $('body').terminal({
             hello: function(what) {
                 this.echo('Hello, ' + what +
