@@ -7,10 +7,24 @@
 </head>
 <body>
     <script>
+        var dt = new Date();
+        var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
         $('body').terminal({
             hello: function(what) {
                 this.echo('Hello, ' + what +
                           '. Welcome.');
+            },
+            about: function() {
+                this.echo(`Feel free to contact me at the following places:
+
+                GitHub: https://github.com/ryanfunke
+                LinkedIn: https://www.linkedin.com/in/ryan-funke/
+                Email: ryansfunke@gmail.com
+
+                `);
+            },
+            help: function() {
+                this.echo(`Available commands: about    help    clear   resume (IN-DEV)`)
             }
         }, {
             greetings: `
@@ -37,7 +51,7 @@
                                                                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠾⠿⢯⣤⣆⣤⣯⠼⠀⠀⢸⠀⠀⠀⠀⠀⣉⠭⠿⠛⠛⠚⠟⡇⠀⠀⣀⠀⢀⡤⠊⠀⠀⠀⠀
                                                                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠀⢸⣷⣶⣤⣦⡼⠀⠀⠀⣴⣯⠇⡀⣀⣀⠤⠤⠖⠁⠐⠚⠛⠉⠁⠀⠀⠀⠀⠀⠀
                                                                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣛⠁⢋⡀⠀⠀⠀⠀⣛⣛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀          
-                            `
+                            ` + 'Last Login: ' + time + '.'
         });
         </script>
 </body>
