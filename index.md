@@ -4,15 +4,15 @@ layout: template
 filename: index
 --- 
 
-# Ryan Funke
+# Welcome to my personal website!
 
-## Created by [Ryan Funke](www.github.com/ryanfunke)
+## Created by [Ryan Funke.](www.github.com/ryanfunke)
 
 #### Who are you?
-I'm Ryan! Currently I work as a Software Engineer after graduating from Purdue University with a degree in Cybersecurity. 
+I'm Ryan! Currently I work as a Software Engineer after having graduating from Purdue University with a degree in Cybersecurity. 
 
 #### How can I reach you?
-Feel free to send me an email at ryansfunke@gmail.com, or visit my LinkedIn page at https://www.linkedin.com/in/ryan-funke/.
+Feel free to send me an email at ryansfunke@gmail.com, or visit my LinkedIn page [here](https://www.linkedin.com/in/ryan-funke/).
 
 #### How to contribute?
 No thanks! 
