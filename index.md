@@ -9,7 +9,7 @@ filename: index
 ## Find me on [Github.](www.github.com/ryanfunke)
 
 #### Who are you?
-I'm Ryan! Currently I work as a Software Engineer after having graduating from Purdue University with a degree in Cybersecurity. 
+I'm Ryan, and I currently work as a Software Engineer after having graduated from Purdue University with a degree in Cybersecurity. 
 
 #### What is this?
 This website is for some light biographical information about myself and potentially showcasing my projects in the future. 
